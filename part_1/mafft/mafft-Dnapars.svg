@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="559px" height="437px" viewBox="0 0 559 437"
+xmlns="http://www.w3.org/2000/svg" version="1.1">
+<rect x="0" y="0" width="559" height="437" fill="none" stroke="rgb(192,192,192)" stroke-width="1"/>
+<text x="41" y="433" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">R/1-900</text>
+<text x="374" y="393" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">J/1-942</text>
+<text x="464" y="353" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">I/1-882</text>
+<text x="500" y="314" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">H/1-898</text>
+<text x="356" y="346" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.016</text>
+<text x="360" y="306" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.021</text>
+<text x="464" y="274" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">G/1-912</text>
+<text x="464" y="234" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">F/1-923</text>
+<text x="211" y="326" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.021</text>
+<text x="217" y="246" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.029</text>
+<text x="149" y="386" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.034</text>
+<text x="131" y="286" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.010</text>
+<text x="31" y="336" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.014</text>
+<text x="362" y="194" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">E/1-906</text>
+<text x="472" y="154" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">D/1-884</text>
+<text x="499" y="115" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">C/1-880</text>
+<text x="373" y="147" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.015</text>
+<text x="376" y="107" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.019</text>
+<text x="490" y="75" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">B/1-912</text>
+<text x="490" y="35" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">A/1-912</text>
+<text x="403" y="67" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.013</text>
+<text x="403" y="28" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.013</text>
+<text x="195" y="127" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.026</text>
+<text x="198" y="47" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.030</text>
+<text x="86" y="187" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.042</text>
+<text x="67" y="87" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.017</text>
+<line x1="344" y1="348" x2="461" y2="348" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="344" y1="309" x2="497" y2="309" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="344" y1="348" x2="344" y2="309" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="407" y1="269" x2="461" y2="269" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="407" y1="229" x2="461" y2="229" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="407" y1="269" x2="407" y2="229" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="196" y1="329" x2="344" y2="329" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="196" y1="249" x2="407" y2="249" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="196" y1="329" x2="196" y2="249" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="124" y1="388" x2="371" y2="388" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="124" y1="289" x2="196" y2="289" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="124" y1="388" x2="124" y2="289" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="21" y1="428" x2="39" y2="428" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="21" y1="338" x2="124" y2="338" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="21" y1="428" x2="21" y2="338" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="362" y1="149" x2="470" y2="149" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="362" y1="110" x2="497" y2="110" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="362" y1="149" x2="362" y2="110" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="394" y1="70" x2="488" y2="70" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="394" y1="30" x2="488" y2="30" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="394" y1="70" x2="394" y2="30" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="177" y1="130" x2="362" y2="130" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="177" y1="50" x2="394" y2="50" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="177" y1="130" x2="177" y2="50" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="55" y1="189" x2="359" y2="189" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="55" y1="90" x2="177" y2="90" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="55" y1="189" x2="55" y2="90" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="12" y1="383" x2="21" y2="383" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="12" y1="139" x2="55" y2="139" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="12" y1="383" x2="12" y2="139" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<text x="6" y="17" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">Dnapars, 1 best trees, 277 steps, 801 sites (119 informative)</text>
+<line x1="459" y1="13" x2="531" y2="13" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="459" y1="17" x2="459" y2="9" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<line x1="531" y1="17" x2="531" y2="9" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:butt" />
+<text x="481" y="11" font-family="Times" font-size="12" xml:space="preserve"  fill="rgb(0,0,0)">0.01</text>
+</svg>
