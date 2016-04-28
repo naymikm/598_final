@@ -16,4 +16,10 @@ lapply(reads,cat,'\n',file='reads.fa',append=T)
 sed -e -i 's/ //g;s/^/>\n/g' mutant_reads.fa
 
 paper: mutation rate and genotype variation of ebola virus from mali case sequences
+	Probabilities of transversions and transitions Vol'kenshtein (1976)
 
+sources:
+
+snpeff db chr -  www.biostars.org/p/124885
+html open - http://askubuntu.com/questions/15354/how-to-open-file-with-default-application-from-command-line
+Stack overflow for rest...

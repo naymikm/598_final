@@ -1,0 +1,11 @@
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_LOW	variants_impact_MODERATE	variants_impact_MODIFIER	variants_effect_downstream_gene_variant	variants_effect_missense_variant	variants_effect_synonymous_variant	variants_effect_upstream_gene_variant
+GP	Gene_5899_8304	AHX24649.1		0	0	10	8	0	0	2
+GP	Gene_5899_8304	AHX24650.1		0	0	8	6	0	0	2
+GP	Gene_5899_8304	AHX24651.1		0	0	8	6	0	0	2
+L	Gene_11500_18281	polymerase		3	3	4	0	3	3	4
+NP	Gene_55_3025	nucleoprotein		0	0	3	2	0	0	1
+VP24	Gene_9884_11517	VP24		1	0	10	6	0	1	4
+VP30	Gene_8287_9739	VP30		0	1	9	7	1	0	2
+VP35	Gene_3031_4406	VP35		0	0	3	2	0	0	1
+VP40	Gene_4389_5893	matrix_protein		1	0	5	4	0	1	1

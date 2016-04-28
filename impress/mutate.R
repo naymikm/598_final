@@ -1,11 +1,14 @@
 library(stringr)
 args = commandArgs(trailingOnly=T)
 years = as.numeric(args[1])
-print(years)
+print(paste(years,' years'))
 mutations = ceiling(years*18959*0.0013)  #Hoenen et al.
-print(mutations)
+print(paste(mutations, ' mutations'))
 ez = str_split(readLines('ez.txt'),pattern='')
 bases = ez[[1]]
+
+vcf = data.frame(CHROM=character(),POS=numeric(),ID=character(),REF=character(),
+ALT=character(),QUAL=numeric(),FILTER=character(),INFO=character(),stringsAsFactors=F)
 
 mutate = function(n){
 for (i in 1:n){
@@ -13,7 +16,7 @@ for (i in 1:n){
 	nt = bases[pos]
 	type = runif(1,0,1)
 	trans = runif(1,0,1)
-	if (type <= 0.33){
+	if (type <= .34){
 		if (nt == 'A'){
 			if (trans <= .5){
 				bases[pos] <<- 'C'
@@ -41,7 +44,7 @@ for (i in 1:n){
                    	}
                     		} 
 						
-				} 
+	} 
 	else {
 		if (nt == 'A'){
                bases[pos] <<- 'G'
@@ -54,12 +57,12 @@ for (i in 1:n){
 				}
 		}
 			
-#print(nt)
-#print(bases[pos])
-#print(pos)		
+	vcf[nrow(vcf)+1,] <<- c('KJ660346',pos,'.',nt,bases[pos],100,'PASS','')	
 	}
 
 }	
 
-reads = split(bases,ceiling(seq_along(bases)/1000))
-invisible(lapply(reads,cat,'\n',file='mutant_reads.fa',append=T))
+mutate(mutations)
+write.table(vcf,'ez.vcf',col.names=T,quote=F,row.names=F,sep='\t')
+#reads = split(bases,ceiling(seq_along(bases)/1000))
+#invisible(lapply(reads,cat,'\n',file='mutant_reads.fa',append=T))
