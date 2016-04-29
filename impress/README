@@ -7,13 +7,8 @@ chr = str_split(readLines('chr21bases.fa'),pattern='')
 
 bases = chr[[1]]
 
-reads = split(bases,ceiling(seq_along(bases)/10000))  #10k bp reads
-#SA link
+#Add dependancies and snpeff database instructions
 
-lapply(reads,cat,'\n',file='reads.fa',append=T)
-#SA link
-
-sed -e -i 's/ //g;s/^/>\n/g' mutant_reads.fa
 
 paper: mutation rate and genotype variation of ebola virus from mali case sequences
 	Probabilities of transversions and transitions Vol'kenshtein (1976)
