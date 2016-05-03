@@ -1,10 +1,25 @@
 #!/bin/bash
-#genome prep
-##Turn fasta sequence into 1 line of text, \n needed as EOF character for R loading
-#sed 's/N//g' ebola_zaire.fasta | grep -v '^$\|^>' | tr -d '\n' | tr [a-z] [A-Z] > ez.txt
-#echo -e '\n' >> ez.txt
+#Add usage and refactor commands to use the args!!
 
-#echo -e "WARNING! If running more than 1 simulation, you must delete the file mutant_reads.fa between runs\n"
+while getopts 'hr:s:y:' flag;
+do
+ case "${flag}" in
+  r) rscript="{OPTARG}";;
+  s) snpeff="{OPTARG}";;
+  y) years="{OPTARG}";;
+  h) echo -e "$usage"; exit 1;;
+  *)
+     echo "Unrecognised option"
+     echo -e "$usage"; exit 1;;
+ esac
+done
+
+if [[ -z "$rscript" ]] || [[ -z "$snpeff" ]] ||[[ -z "$years" ]]; then 
+ echo -e "\nError: Missing options"
+ echo -e "$usage"
+ exit 1
+fi
+
 yrs=$1
 echo -e "Mutating..."
 Rscript mutate.R "$yrs"

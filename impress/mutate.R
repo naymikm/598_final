@@ -64,5 +64,3 @@ for (i in 1:n){
 
 mutate(mutations)
 write.table(vcf,'ez.vcf',col.names=T,quote=F,row.names=F,sep='\t')
-#reads = split(bases,ceiling(seq_along(bases)/1000))
-#invisible(lapply(reads,cat,'\n',file='mutant_reads.fa',append=T))
