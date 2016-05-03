@@ -1,6 +1,6 @@
 ##Genome Prep:
 #Turn genome into 1 line of text, remove N's, all caps, add newline for EOF (required by str_split)
-sed 's/N//g' ebola_zair.fasta | grep -v '^$\|^>' | tr -d '\n' | tr [a-z] [A-Z] > ez.txt
+sed 's/N//g' ebola_zaire.fasta | grep -v '^$\|^>' | tr -d '\n' | tr [a-z] [A-Z] > ez.txt
 echo -e '\n' >> ez.txt 
 
 #Dependencies:
