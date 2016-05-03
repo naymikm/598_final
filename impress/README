@@ -1,16 +1,23 @@
+##Genome Prep:
 #Turn genome into 1 line of text, remove N's, all caps, add newline for EOF (required by str_split)
 sed 's/N//g' ebola_zair.fasta | grep -v '^$\|^>' | tr -d '\n' | tr [a-z] [A-Z] > ez.txt
 echo -e '\n' >> ez.txt 
 
-#Add dependancies and snpeff database instructions
+#Dependencies:
+	snpEff (snpeff.sourceforge.net)
 
+	ebola_zaire snpEff database:
+		go into the top level snpEff directory (where snpEff.jar is)
+		issue command "java -jar download ebola_zaire"
+		'... snpEff/data/ebola_zaire/snpEffectPredictor.bin' should be present now
 
-Published sources:	Mutation rate and genotype variation of ebola virus from mali case sequences (Science 04/15, Hoenen et al.)
+Published sources:	
+			Mutation rate and genotype variation of ebola virus from mali case sequences (Science 04/15, Hoenen et al.)
 			Probabilities of transversions and transitions (Molecular Biology 1976, Vol'kenshtein)
 
 code sources:
-http://stackoverflow.com/questions/29866322/how-to-import-a-text-file-into-r-as-a-character-vector (read text with str_split)
-www.biostars.org/p/124885 (getting snpeff DB chromosome name)
-http://askubuntu.com/questions/15354/how-to-open-file-with-default-application-from-command-line (open with OS default application)
-http://stackoverflow.com/questions/1236620/global-variables-in-r (setting global variables in a function)
+	http://stackoverflow.com/questions/29866322/how-to-import-a-text-file-into-r-as-a-character-vector (read text with str_split)
+	www.biostars.org/p/124885 (getting snpeff DB chromosome name)
+	http://askubuntu.com/questions/15354/how-to-open-file-with-default-application-from-command-line (open with OS default application)
+	http://stackoverflow.com/questions/1236620/global-variables-in-r (setting global variables in a function)
 
